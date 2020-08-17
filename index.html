@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+  </head>
+  <body>
+    <div class="uk-section-primary uk-preserve-color">
+      <nav class="uk-navbar-container" uk-navbar>
+        <div class="uk-navbar-left">
+          <ul class="uk-navbar-nav">
+            <li class="uk-active"><a href="#">Yuzuka Official</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#collab">Collaborators</a></li>
+            <li><a href="#game">GameList</a></li>
+          </ul>
+
+        </div>
+      </nav>
+    </div>
+
+    <div class="uk-container uk-align-center">
+        <div class="uk-inline">
+          <img src="img/di.png" alt="" >
+          <div class="uk-overlay uk-overlay-default uk-position-center uk-text-center">
+            <h1>Hello world from Virtual world!</h1>
+            <h2>Kannaduki Yuzuka Official Page</h2>
+          </div>
+        </div>
+    </div>
+
+    <div class="uk-container" id="about">
+       <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+          <div class="uk-card-media-left uk-cover-container">
+            <img src="img/3DFull.png" alt="" uk-cover >
+            <canvas width="600" height="400"></canvas>
+          </div>
+          <div>
+            <div class="uk-card-body">
+              <h3 class="uk-card-title">神無月ユズカ</h3>
+              <p clas="uk-text-break">BD:10/04,SEX:MAN </p>
+              <p class="uk-text-break">2019年1月12日にデビューしたバーチャルYotuber(Vtuber)</p>
+              <p class="uk-text-break">バーチャル世界の技術に関する研究、開発をしており、どこかで発表とかもしているとかなんとか…?</p>
+              <p class="uk-text-break">色んな人とコラボしながら楽しみたい人で、日々色んな人にクソリプを送ったりして交流を図ろうとする</p>
+              <p class="uk-text-break">裏の顔として、意外なところでIT関連の仕事をしてたりもする…?</p>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="collab"class ="uk-container uk-margin">
+      <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid>
+
+        <div class="uk-card uk-card-default uk-margen">
+                <div class="uk-card-header">
+                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                    <div class="uk-width-auto">
+                        <img class="uk-border-circle" width="100" height="100" src="https://pbs.twimg.com/profile_images/1259550336039047168/jNRdBTpj_400x400.jpg">
+                    </div>
+                    <div class="uk-width-expand">
+                        <h3 class="uk-card-title uk-margin-remove-bottom">フォウ</h3>
+                        <p class="uk-text-meta uk-margin-remove-vertical">Illustrator</p>
+                        <p class="uk-text-meta uk-margin-remove-top"><a href="https://twitter.com/ssqseeker">@ssqseeker</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="uk-card uk-card-default uk-margen">
+                <div class="uk-card-header">
+                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                    <div class="uk-width-auto">
+                        <img class="uk-border-circle" width="100" height="100" src="https://pbs.twimg.com/profile_images/1112729470836736000/PCIUb5Fs_400x400.jpg">
+                    </div>
+                    <div class="uk-width-expand">
+                      <h3 class="uk-card-title uk-margin-remove-bottom">睡夢</h3>
+                      <p class="uk-text-meta uk-margin-remove-vertical">Live2D Modeler</p>
+                      <p class="uk-text-meta uk-margin-remove-top"><a href="https://twitter.com/suimu00">@suimu00</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="uk-card uk-card-default uk-margen">
+                <div class="uk-card-header">
+                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                    <div class="uk-width-auto">
+                        <img class="uk-border-circle" width="100" height="100" src="https://pbs.twimg.com/profile_images/1108744346168262658/XpK5-VIv_400x400.png">
+                    </div>
+                    <div class="uk-width-expand">
+                      <h3 class="uk-card-title uk-margin-remove-bottom">赤茶ンヌ</h3>
+                      <p class="uk-text-meta uk-margin-remove-vertical">3D Modeler</p>
+                      <p class="uk-text-meta uk-margin-remove-top"><a href="https://twitter.com/redchancemaster">@redchancemaster</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="uk-container uk-margen" id="game">
+      <h3>ゲーム一覧</h3>
+      <button href="#toggle-animation" class="uk-button uk-button-default" type="button" uk-toggle="target: #toggle-animation; animation: uk-animation-fade">一覧 (量多め)</button>
+      <div id="toggle-animation" class="uk-card uk-card-default uk-card-body uk-margin-small" hidden>
+        <p class="uk-text-break">2020年8月16日時点のデータです
+        <table class="uk-table">
+          <tbody>
+            <tr>
+            <th>title</th>
+            <th>time</th>
+          </tr>
+
+          <tr class="uk-alert-success">
+            <td>Minecraft</td>
+            <td>???h ???m > 600h 00m</td>
+          </tr>
+
+          <tr class="uk-alert-success">
+            <td>Fortnite</td>
+            <td>649h 54m</td>
+          </tr>
+
+          <tr class="uk-alert-success">
+            <td>FaceRig</td>
+            <td>449h 5m</td>
+          </tr>
+
+          <tr class="uk-alert-success">
+            <td>7 Days to Die</td>
+            <td>443h 41m</td>
+          </tr>
+
+          <tr class="uk-alert-success">
+            <td>Left 4 Dead 2</td>
+            <td>133h 42m</td>
+          </tr>
+
+          <tr class="uk-alert-success">
+            <td>Watch_Dogs</td>
+            <td>116h 35m</td>
+          </tr>
+
+          <tr class="uk-alert-success">
+            <td>Watch_Dogs 2</td>
+            <td>86h 50m</td>
+          </tr>
+
+          <tr class="uk-alert-success">
+            <td>Tom Clancy's The Division</td>
+            <td>49h 10m</td>
+          </tr>
+
+          <tr class="uk-alert-success">
+            <td>Conan Exiles</td>
+            <td>36h 3m</td>
+          </tr>
+
+          <tr class="uk-alert-success">
+            <td>Garry's Mod</td>
+            <td>35h 22m</td>
+          </tr>
+
+          <tr class="uk-alert-success">
+            <td>Resident Evil 6</td>
+            <td>32h 10m</td>
+          </tr>
+
+          <tr class="uk-alert-success">
+            <td>MoonLigher</td>
+            <td>31h 16m</td>
+          </tr>
+
+          <tr class="uk-alert-success">
+            <td>Crypt of the NecroDancer</td>
+            <td>28h 36m</td>
+          </tr>
+
+          <tr class="uk-alert-success">
+            <td>VRChat</td>
+            <td>23h 34m</td>
+          </tr>
+
+          <tr>
+            <td>Dead by Daylight</td>
+            <td>19h 9m</td>
+          </tr>
+
+          <tr>
+            <td>Hacknet</td>
+            <td>19h 5m</td>
+          </tr>
+
+          <tr>
+            <td>The Long Dark</td>
+            <td>18h 38m</td>
+          </tr>
+
+          <tr>
+            <td>Terraria</td>
+            <td>13h 46m</td>
+          </tr>
+
+          <tr>
+            <td>Portal 2</td>
+            <td>13h 26m</td>
+          </tr>
+
+          <tr>
+            <td>ORION: Prelude</td>
+            <td>13h 26m</td>
+          </tr>
+          <tr>
+            <td>Undertale</td>
+            <td>12h 0m</td>
+          </tr>
+
+          <tr>
+            <td>METAL GEAR SOLID V: GROUND ZEROES</td>
+            <td>10h 42m</td>
+          </tr>
+
+          <tr>
+            <td>Ring of Elysium</td>
+            <td>10h 0m</td>
+          </tr>
+
+          <tr>
+            <td>Beat Saber</td>
+            <td>9h 35m</td>
+          </tr>
+
+          <tr>
+            <td>Dying Light</td>
+            <td>9h 24m</td>
+          </tr>
+
+          <tr>
+            <td>Counter-Strike: Global Offensive</td>
+            <td>6h 35m</td>
+          </tr>
+
+          <tr>
+            <td>PAYDAY 2</td>
+            <td>5h 10m</td>
+          </tr>
+
+          <tr>
+            <td>Grand Theft Auto V</td>
+            <td>4h 56m</td>
+          </tr>
+
+          <tr>
+            <td>Goat Simulator</td>
+            <td>4h 36m</td>
+          </tr>
+
+          <tr>
+            <td>Muse Dash</td>
+            <td>4h 7m</td>
+          </tr>
+
+          <tr>
+            <td>Besiege</td>
+            <td>4h 7m</td>
+          </tr>
+
+          <tr>
+            <td>while True: learn()</td>
+            <td>3h 27m</td>
+          </tr>
+
+          <tr>
+            <td>War Thunder</td>
+            <td>3h 1m</td>
+          </tr>
+
+          <tr>
+            <td>UNO</td>
+            <td>2h 45m</td>
+          </tr>
+
+          <tr>
+            <td>Just Cause 3</td>
+            <td>2h 33m</td>
+          </tr>
+
+          <tr>
+            <td>Vカツ / V-Katsu</td>
+            <td>2h 24m</td>
+          </tr>
+
+          <tr>
+            <td>Destiny 2</td>
+            <td>2h 2m</td>
+          </tr>
+
+          <tr>
+            <td>Wallpaper Engine</td>
+            <td>1h 56m</td>
+          </tr>
+
+          <tr>
+            <td>Resident Evil 5</td>
+            <td>1h 43m</td>
+          </tr>
+
+          <tr>
+            <td>Portal</td>
+            <td>1h 41m</td>
+          </tr>
+
+          <tr>
+            <td>KurtzPel</td>
+            <td>1h 37m</td>
+          </tr>
+
+          <tr>
+            <td>Glitchspace</td>
+            <td>1h 36m</td>
+          </tr>
+
+          <tr>
+            <td>Just Shapes &amp; Beats</td>
+            <td>1h 34m</td>
+          </tr>
+
+          <tr class="uk-alert-danger">
+            <td>Friday the 13th: The Game</td>
+            <td>0h 28m</td>
+          </tr>
+
+          <tr class="uk-alert-danger">
+            <td>STAND OUT</td>
+            <td>0h 20m</td>
+          </tr>
+
+          <tr class="uk-alert-danger">
+            <td>Cuisine Royale</td>
+            <td>0h 17m</td>
+          </tr>
+
+          <tr class="uk-alert-danger">
+            <td>DCS World Steam Edition</td>
+            <td>0h 15m</td>
+          </tr>
+
+          <tr class="uk-alert-danger">
+            <td>SYMMETRY alpha</td>
+            <td>0h 4m</td>
+          </tr>
+
+          <tr class="uk-alert-danger">
+            <td>Fallout 3 - Game of the Year Edition</td>
+            <td>0h 3m</td>
+          </tr>
+
+          <tr class="uk-alert-danger">
+            <td>I am Bread</td>
+            <td>0h 3m</td>
+          </tr>
+
+          <tr class="uk-alert-danger">
+            <td>GameLooper</td>
+            <td>0h 1m</td>
+          </tr>
+
+          <tr class="uk-alert-danger">
+            <td>Torment: Tides of Numenera</td>
+            <td>0h 0m</td>
+          </tr>
+
+          <tr class="uk-alert-danger">
+            <td>Wasteland 2: Director's Cut</td>
+            <td>0h 0m</td>
+          </tr>
+
+          <tr class="uk-alert-danger">
+            <td>Robocraft</td>
+            <td>0h 0m</td>
+          </tr>
+
+          <tr class="uk-alert-danger">
+            <td>BLOCKADE 3D</td>
+            <td>0h 0m</td>
+          </tr>
+
+          <tr class="uk-alert-danger">
+            <td>Wasteland 2</td>
+            <td>0h 0m</td>
+          </tr>
+
+          <tr class="uk-alert-danger">
+            <td>Wasteland 1 - The Original Classic</td>
+            <td>0h 0m</td>
+          </tr>
+
+          <tr class="uk-alert-danger">
+            <td>Oxenfree</td>
+            <td>0h 0m</td>
+          </tr>
+
+          <tr class="uk-alert-danger">
+            <td>AER Memories of Old</td>
+            <td>0h 0m</td>
+          </tr>
+
+          <tr class="uk-alert-danger">
+            <td>Conan Exiles - Testlive Client</td>
+            <td>0h 0m</td>
+          </tr>
+
+          <tr class="uk-alert-danger">
+            <td>Last Day of June</td>
+            <td>0h 0m</td>
+          </tr>
+
+          <tr class="uk-alert-danger">
+            <td>STYLY</td>
+            <td>0h 0m</td>
+          </tr>
+
+          <tr class="uk-alert-danger">
+            <td>For Honor</td>
+            <td>0h 0m</td>
+          </tr>
+
+          <tr class="uk-alert-danger">
+            <td>For Honor - Public Test</td>
+            <td>0h 0m</td>
+          </tr>
+
+          <tr class="uk-alert-danger">
+            <td>Helltaker</td>
+            <td>0h 0m</td>
+          </tr>
+
+          <tr class="uk-alert-danger">
+            <td>GOAT OF DUTY</td>
+            <td>0h 0m</td>
+          </tr>
+
+          <tr class="uk-alert-danger">
+            <td>Unrailed!</td>
+            <td>0h 0m</td>
+          </tr>
+
+          <tr class="uk-alert-danger">
+            <td>OLDTV</td>
+            <td>0h 0m</td>
+          </tr>
+
+          <tr class="uk-alert-danger">
+            <td>Streamline</td>
+            <td>0h 0m</td>
+          </tr>
+
+          <tr class="uk-alert-danger">
+            <td>ARK: Survival Of The Fittest</td>
+            <td>0h 0m</td>
+          </tr>
+
+          <tr class="uk-alert-danger">
+            <td>ARK: Survival Evolved</td>
+            <td>0h 0m</td>
+          </tr>
+
+          <tr class="uk-alert-danger">
+            <td>Keep Talking and Nobody Explodes</td>
+            <td>0h 0m</td>
+          </tr>
+
+          <tr class="uk-alert-danger">
+            <td>Google Earth VR</td>
+            <td>0h 0m</td>
+          </tr>
+
+          <tr class="uk-alert-danger">
+            <td>Shadow Tactics: Blades of the Shogun</td>
+            <td>0h 0m</td>
+          </tr>
+
+          <tr class="uk-alert-danger">
+            <td>Human: Fall Flat</td>
+            <td>0h 0m</td>
+          </tr>
+
+          <tr class="uk-alert-danger">
+            <td>The Lab</td>
+            <td>0h 0m</td>
+          </tr>
+
+          <tr class="uk-alert-danger">
+            <td>Tom Clancy's The Division PTS</td>
+            <td>0h 0m</td>
+          </tr>
+
+          <tr class="uk-alert-danger">
+            <td>The Final Station</td>
+            <td>0h 0m</td>
+          </tr>
+
+      </tbody>
+      </table>
+      </div>
+    </div>
+
+    <div class="uk-container uk-margin">
+
+    </div>
+
+  </body>
+</html>
